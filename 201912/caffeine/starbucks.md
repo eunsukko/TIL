@@ -36,3 +36,87 @@
 
 
 ![Alt text](pictures/starbucks_coffee.jpeg?raw=true "Title")
+
+
+
+### 메뉴 예시들
+
+메뉴 관련 정보들?
+  - id
+  - name
+  - price
+  - img
+  - options
+    - 아이스 / hot
+    - 포장 / 테이크아웃
+    - 사이즈
+    - 옵션 (지금은 불필요?)
+  - 분류 (카테고리?)
+    - 음료
+    - 푸드
+
+- 프리미엄 바나나
+  - Preminum Banana
+  - 1500
+  - 
+  - food
+
+- 아이스 아메리카노
+  - Ice Americano
+  - 4100
+  - 
+  - beverage
+
+- 아메리카노
+  - Americano
+  - 4100
+  -
+  - beverage
+
+- 카페 라떼
+  - Caffe Latte
+  - 4600
+  -
+  - beverage
+
+- 아이스 카페 라떼
+  - Ice Caffe Latte
+  - 4600
+  -
+  - beverage
+
+- 카라멜 마키아또
+  - Caramel Macchiato
+  - 5600
+  - 
+  - beverage
+
+- 아이스 카라멜 마키아또 
+  - Ice Caramel Macchiato
+  - 5600
+  -
+  - beverage
+
+- 자몽 허니 블랙 티
+  - Grapefruit Honey Black Tea
+  - 5300
+  -
+  - beverage
+
+- 아이스 자몽 허니 블랙 티
+  - Ice Grapefruit Honey Black Tea
+  - 5300
+  -
+  - beverage
+
+- 그린 티 라떼
+  - Green Tea Latte
+  - 5900
+  -
+  - beverage
+
+- 아이스 그린 티 라떼
+  - Ice Green Tea Latte
+  - 5900
+  -
+  - beverage
