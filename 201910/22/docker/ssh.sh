@@ -1,0 +1,1 @@
+ssh -i "EC2-TRAINING-eunsukko.pem" ubuntu@ec2-15-164-250-130.ap-northeast-2.compute.amazonaws.com

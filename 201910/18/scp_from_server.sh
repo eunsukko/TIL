@@ -1,0 +1,1 @@
+scp -r -i ~/Downloads/EC2-TRAINING-eunsukko.pem ubuntu@54.180.117.245:~/tcpdump .

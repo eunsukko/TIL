@@ -1,0 +1,1 @@
+[HTTP streaming](https://docs.spring.io/spring/docs/4.2.0.RC2/spring-framework-reference/htmlsingle/#mvc-ann-async-http-streaming)

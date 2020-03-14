@@ -82,5 +82,51 @@
 - 데이터가 성공적으로 다른 노드 몇개에 복사가 됨
 
 
+
+### 실습
+- https://www.popit.kr/mysql-lock-%EC%83%81%ED%99%A9-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0/
+
+- https://brunch.co.kr/@cg4jins/8
+
+#### mysql isolation level 확인
+```
+mysql> SELECT @@TX_ISOLATION;
+
+// mysql8
+mysql> SELECT @@TRANSACTION_ISOLATION;
+
++-------------------------+
+| @@transaction_isolation |
++-------------------------+
+| REPEATABLE-READ         |
++-------------------------+
+1 row in set (0.00 sec)
+```
+
+
+#### mysql 삽질
+권한문제.. ㅠㅠ
+- http://www.fun25.co.kr/blog/mysql-grant-user-privileges/?page=4
+// grant all privileges on dbname.table to userid@host identified by 'password';
+- https://freeprog.tistory.com/168
+
+mysql> use information_schedma;
+
+mysql 에서 innodb system variables 변경
+- http://fibrevillage.com/database/330-how-to-change-mysql-system-parameters-variables
+- https://dev.mysql.com/doc/refman/8.0/en/using-system-variables.html
+
+
+innodb 가... built-in 버전과 plug-in 버전이 있는갑다... ㅠㅠ
+
+> 어떻게 하면 .... 트랜잭션을 적용하는 동안 발생하는 락을 쉽게 확인 할 수 있을까?
+
+innodb 데드락 예시
+- https://dev.mysql.com/doc/refman/8.0/en/innodb-deadlock-example.html
+- https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html
+
+mysql 8.0 락 확인
+https://sarc.io/index.php/mariadb/1697-mysql-8-0-lock-session
+
 ### 출처
 - 데이터 중심 어플리케이션 설계 - 마틴 클레프만

@@ -37,3 +37,6 @@
 - CQRS 를 파악하기 좋은 개념?
 - read 와 write 를 분리하는 개념을 구현해보고 싶다. (어떤 것을 정리하는 게 좋을지는 한 번 짜봐야 겠다..)
 - 먼가 데이터 주도 개발 책에서 본 transaction 에서 스냅샷 개념이랑도 연관지어서 정리해도 재미있을 듯
+
+- https://www.slipp.net/wiki/pages/viewpage.action?pageId=30769550
+- https://docs.microsoft.com/ko-kr/azure/architecture/patterns/event-sourcing
